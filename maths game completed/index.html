@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-ui"> 
+        <p class="problem">
+            
+        </p>
+
+        <form action="" class="our-form">
+            <input type="text" class="our-field" autocomplete="off">
+            <button>submit</button>
+        </form>
+
+
+        <p>You need <span class="points-needed">10</span> more points, and are allowed to make <span class="mistakes-allow">2</span> more mistake</p>
+
+        <div class="progress">
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+
+            <div class="progress-inner">
+
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="overlay">
+        <div class="overlay-inner">
+            <p class="end-message"></p>
+            <button class="reset-btn">Start Over</button>
+        </div>
+    </div>
+
+    <div class="theme-btns">
+        <div class="theme-btn btn1 pastel"></div>
+        <div class="theme-btn btn2 twilight"></div>
+        <div class="theme-btn btn3 forest"></div>
+        <div class="theme-btn btn4 sunset"></div>
+        <div class="theme-btn btn5 goldenHues"></div>
+
+      </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
